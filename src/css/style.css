@@ -118,7 +118,7 @@ header {
 }
 
 div.hero-text h1 {
-  font-size: 4rem;
+  font-size: 4.5rem;
 }
 
 div.hero-text p {
@@ -127,6 +127,7 @@ div.hero-text p {
 
 span.colour-accent {
   color: #ff4f00;
+  text-decoration: underline;
 }
 
 button.hero-cta {
@@ -156,14 +157,32 @@ button.hero-cta:hover {
 }
 
 h2 {
-  color: #ff4f00;
-  font-weight: normal;
-  font-size: 2.5rem;
+  color: #000000;
+  font-size: 3rem;
   padding-bottom: 10px;
 }
 
-h3 {
-  color: #ff4f00;
+.middle-container {
+  height: 100%;
+  margin: 50px 0;
+}
+
+.section-heading {
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  width: 150px;
+}
+
+.bio-content {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.intro {
+  margin: 0 auto;
+  margin-bottom: 15px;
+  width: 350px;
 }
 
 p {
@@ -174,19 +193,19 @@ hr {
   border-style: solid;
   border-width: 2px 0 0 0;
   color: #ff4f00;
-  margin: 100px auto;
+  margin: 10px auto;
   width: 3%;
 }
 
-.middle-container {
-  height: 100%;
-  margin: 100px 0;
+.skills-heading {
+  margin: 0 auto;
+  width: 200px;
 }
 
 .skill-row {
-  margin: 100px auto;
+  margin: 20px auto;
   text-align: left;
-  width: 50%;
+  width: 60%;
 }
 
 .code-img {
@@ -202,7 +221,7 @@ hr {
 }
 
 .bottom-container {
-  background-color: #66bfbf;
+  background-color: #000000;
   bottom: 0;
   line-height: 2;
   margin-top: 50px;
@@ -214,32 +233,6 @@ hr {
   margin: 50px auto;
 }
 
-/* .btn {
-  background: #11999e;
-  background-image: -webkit-linear-gradient(top, #11999e, #66bfbf);
-  background-image: -moz-linear-gradient(top, #11999e, #66bfbf);
-  background-image: -ms-linear-gradient(top, #11999e, #66bfbf);
-  background-image: -o-linear-gradient(top, #11999e, #66bfbf);
-  background-image: linear-gradient(to bottom, #11999e, #66bfbf);
-  -webkit-border-radius: 9;
-  -moz-border-radius: 9;
-  border-radius: 9px;
-  font-family: 'Montserrat', sans-serif;
-  color: #ffffff;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-}
-
-.btn:hover {
-  background: #66bfbf;
-  background-image: -webkit-linear-gradient(top, #66bfbf, #66bfbf);
-  background-image: -moz-linear-gradient(top, #66bfbf, #66bfbf);
-  background-image: -ms-linear-gradient(top, #66bfbf, #66bfbf);
-  background-image: -o-linear-gradient(top, #66bfbf, #66bfbf);
-  background-image: linear-gradient(to bottom, #66bfbf, #66bfbf);
-  text-decoration: none;
-} */
 .footer-link {
   color: #11999e;
   margin-left: 20px;
