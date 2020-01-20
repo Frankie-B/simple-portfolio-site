@@ -127,7 +127,7 @@ h2 {
 
 .middle-container {
   height: 700px;
-  /* margin: 20px 0; */
+  margin: 20px 0;
 }
 
 .section-heading {
@@ -201,9 +201,10 @@ hr {
 }
 
 .content-cta {
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 25px;
-  width: 80%;
+  width: 100%;
 }
 
 button#cta {
@@ -302,10 +303,6 @@ button#cta:hover {
 
   div.hero-text p {
     font-size: 15px;
-  }
-
-  #bio {
-    margin-top: 20px;
   }
 }
 
