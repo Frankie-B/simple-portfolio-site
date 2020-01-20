@@ -1,0 +1,21 @@
+/* Global style rules  */
+
+/* ----- Reset ----- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ----- End Reset ----- */
+
+body {
+  scroll-behavior: smooth;
+}
+
+/* ----- End Global Style rules ----- */
+
+/* ----- Style rule for Debugging ----- */
+.debug {
+  color: red;
+}
