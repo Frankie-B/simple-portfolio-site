@@ -6,8 +6,8 @@
 
 body,
 html {
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
 }
 
 html {
@@ -30,6 +30,48 @@ body {
   flex-direction: column;
   flex-basis: 100%;
   flex: 1;
+}
+
+/* Navigation */
+header {
+  position: absolute;
+  right: 25px;
+  z-index: 5;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: transparent;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:not(:last-child):hover,
+.hover {
+  border-bottom: 1px solid #ff4f00;
+  color: #ff4f00;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+/* Hero container */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  width: 100vw;
 }
 
 .blue-column {
